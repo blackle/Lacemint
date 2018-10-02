@@ -2,7 +2,7 @@
 
 SyscallValidationManager::SyscallValidationManager(const syscallValidatorList& validators)
 	: _validators(validators)
-	, _currValidator(validators.begin())
+	, _currValidator(_validators.begin())
 {}
 
 void SyscallValidationManager::handleSyscall(uc_engine* uc) {
