@@ -1,0 +1,1 @@
+The Lacemint Validator is a tool for testing extremely small ELF files for x86. It will allow you to pass in a list of expected syscalls and their parameters, and it will emulate your code to verify that it is on spec.
